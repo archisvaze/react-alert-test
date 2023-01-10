@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   const [show, setShow] = useState(false);
-  const [type, setType] = useState("");
+  const [type, setType] = useState("error");
 
   return (
     <div className="App">
